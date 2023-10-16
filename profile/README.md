@@ -72,34 +72,36 @@
 ## How to Start
 ### 1. Clone Repository
 ```markdown
-$ git clone https://github.com/2023-Summer-Bootcamp-TeamD/frontend.git
-$ git clone https://github.com/2023-Summer-Bootcamp-TeamD/backend.git
+$ git clone https://github.com/TenQuest-Team/TenQuest-BE.git
+$ git clone https://github.com/TenQuest-Team/TenQuest-Frontend.git
 ```
 
-### 2. Install Packages
+### 2. Local execution - Backend
 ```markdown
-$ cd frontend
+$ 
+```
+
+### 3. Install Packages - Frontend
+```markdown
+$ cd ../frontend
 $ npm install
 ```
 
-### 3. Set .env file
+### 4. change API Endpoint - Frontend
 ```markdown
-.env file 내용
+/frontend/src/api.js
+
+const API_END_POINT = 'https://tenquest.run.goorm.site';
+-> const API_END_POINT = 'backend local server';
+
+ctrl+s
 ```
 
-### 4. Run Docker
+### 5. Local execution - Frontend
 ```markdown
-$ cd backend
-$ docker-compose up --build         # build images and run containers
-$ docker-compose down               # stop running containers
-$ docker-compose down -v            # stop running containers and delete its volume
-```
-
-### 5. Local execution
-```markdown
-$ cd ../frontend
 $ npm run dev
 ```
+
 
 
 
@@ -113,12 +115,12 @@ $ npm run dev
 - /templates -> Template List Page
 - /template/preset -> Preset Template List Page
 - /createNewTemplate -> Creating Template Page
-- /template/(templateId) -> View Answers Page
-- /view/question/(templateDocId)/(questionId) -> View Answers By Question Page
-- /view/answer/(replyerId) -> View Answers By Answer Page
+- /template/{templateId} -> View Answers Page
+- /view/question/{templateDocId}/{questionId} -> View Answers By Question Page
+- /view/answer/{replyerId} -> View Answers By Answer Page
 - /shareTemplate -> Sharing Template Page
-- /reply/(templateId) -> Questionnaire Page
-- /submitAnswer/(templateId) -> Finished Submit Answer Page
+- /reply/{templateId} -> Questionnaire Page
+- /submitAnswer/{templateId} -> Finished Submit Answer Page
 
 
 <br/>
@@ -148,10 +150,10 @@ $ npm run dev
       <td>Frontend</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/woody35545">@woody35545</a></td>
-      <td><a href="https://github.com/Shsin9797">@Shsin9797</a></td>
-      <td><a href="https://github.com/songarden">@songarden</a></td>
-      <td><a href="https://github.com/Kimyebin00">@Kimyebin00</a></td>
+      <td width="150"><a href="https://github.com/woody35545">@woody35545</a></td>
+      <td width="150"><a href="https://github.com/Shsin9797">@Shsin9797</a></td>
+      <td width="150"><a href="https://github.com/songarden">@songarden</a></td>
+      <td width="150"><a href="https://github.com/Kimyebin00">@Kimyebin00</a></td>
     </tr>
   </tbody>
 </table>
