@@ -1,8 +1,7 @@
 
-
-
-# 주제
-간략 설명
+  
+# TenQuest: 익명 질문 소통 플랫폼
+사용자가 추천 질문지 또는 나만의 질문지를 생성하여 공유하고, 해당 링크를 통해 다른 사용자들이 익명으로 질문에 대한 답변을 남겨주는 서비스이다.
 
 <br/>
 
@@ -44,6 +43,8 @@ api 목록 사진
         <img src="https://img.shields.io/badge/JAVA-007396?style=flat&logo=Java&logoColor=white"> 
         <br />
         <img src="https://img.shields.io/badge/SPRING BOOT-6DB33F?style=flat&logo=SPRING BOOT&logoColor=white" />
+        <br />
+        <img src="https://img.shields.io/badge/SPRING SECURITY-6DB33F?style=flat&logo=SPRING SECURITY&logoColor=white" />
         <br />
         <img src="https://img.shields.io/badge/MYSQL-4479A1?style=flat&logo=MYSQL&logoColor=white" />
       </td>
@@ -103,11 +104,19 @@ $ npm run dev
 <br/>
 
 ## **URL**
-- / → Main Page
-- /creatingSpecificRooms → Creating Room Page
-- /entryRoom → Entry Room Page
-- /game/:entrycode → Game Page
-- /result → Game Result Page
+- / → Login Page
+- /findID -> Find ID Page
+- /findPW -> Find Password Page
+- /signUp -> Sign Up Page
+- /templates -> Template List Page
+- /template/preset -> Preset Template List Page
+- /createNewTemplate -> Creating Template Page
+- /template/(templateId) -> View Answers Page
+- /view/question/(templateDocId)/(questionId) -> View Answers By Question Page
+- /view/answer/(replyerId) -> View Answers By Answer Page
+- /shareTemplate -> Sharing Template Page
+- /reply/(templateId) -> Questionnaire Page
+- /submitAnswer/(templateId) -> Finished Submit Answer Page
 
 
 <br/>
