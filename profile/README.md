@@ -1,7 +1,7 @@
 
   
 # TenQuest: 익명 질문 소통 플랫폼
-사용자가 추천 질문지 또는 나만의 질문지를 생성하여 공유하고, 해당 링크를 통해 다른 사용자들이 익명으로 질문에 대한 답변을 남겨주는 서비스이다.
+추천 질문지 또는 나만의 질문지를 생성하여 공유하고, 해당 링크를 통해 다른 사용자들이 익명으로 질문에 대한 답변을 남겨주는 서비스이다.
 
 <br/>
 
@@ -12,14 +12,16 @@
 <br/>
 
 ## System Architecture
-<img width="700" src="https://github.com/TenQuest-Team/.github/assets/70912819/f1f93a1e-2b72-4b4b-8786-38f0ac08c53b">
+<img width="500" alt="system architecture" src="https://github.com/TenQuest-Team/.github/assets/70912819/f1f93a1e-2b72-4b4b-8786-38f0ac08c53b">
 
 
 
 <br/>
 
 ## Backend API
-api 목록 사진
+<img width="810" alt="API 설계" src="https://github.com/TenQuest-Team/.github/assets/70912819/bbb775fe-d787-4997-aaa1-e96deb95dd83">
+
+
 
 
 <br/>
