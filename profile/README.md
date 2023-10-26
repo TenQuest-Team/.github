@@ -135,7 +135,7 @@ $ npm run dev
       <th align="center" width='14%'>김예빈</th>
     </tr>
     <tr>
-      <td align="center"><img width="100" alt="image" src=""></td>
+      <td align="center"><img width="100" alt="image" src="https://github.com/TenQuest-Team/.github/assets/84436996/7c08f4c2-11ee-43a2-a841-c3dfb15e208b"></td>
       <td align='center'><img width="100" alt="image" src="">
 </td>
       <td align='center'><img width="100" alt="image" src="">
