@@ -78,7 +78,7 @@ $ git clone https://github.com/TenQuest-Team/TenQuest-Frontend.git
 
 ### 2. Local execution - Backend
 ```markdown
-$ 
+$ ./gradlew build && nohup java -jar ./build/libs/*.jar &
 ```
 
 ### 3. Install Packages - Frontend
@@ -135,7 +135,7 @@ $ npm run dev
       <th align="center" width='14%'>김예빈</th>
     </tr>
     <tr>
-      <td align="center"><img width="100" alt="image" src="https://github.com/TenQuest-Team/.github/assets/84436996/7c08f4c2-11ee-43a2-a841-c3dfb15e208b"></td>
+      <td align="center"><img width="100" alt="image" src="https://github.com/TenQuest-Team/.github/assets/84436996/8e0edbb1-2c03-482f-a945-7ee455885da5"></td>
       <td align='center'><img width="100" alt="image" src="">
 </td>
       <td align='center'><img width="100" alt="image" src="">
@@ -144,7 +144,7 @@ $ npm run dev
 </td>
     </tr>
     <tr>
-      <td>Team Leader <br />Backend <br />DevOps</td>
+      <td>Team Leader<br/>Backend<br />DevOps</td>
       <td>Backend</td>
       <td>Backend</td>
       <td>Frontend</td>
