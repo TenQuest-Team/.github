@@ -1,12 +1,67 @@
 
   
-# TenQuest: 익명 질문 소통 플랫폼
+# Ten Quest: 익명 질문 소통 플랫폼
 추천 질문지 또는 나만의 질문지를 생성하여 공유하고, 해당 링크를 통해 다른 사용자들이 익명으로 질문에 대한 답변을 남겨주는 서비스이다.
 
 <br/>
 
 ## Demo
-페이지별 움짤 + 설명
+
+### 질문자 입장에서의 서비스 사용
+<table>
+  <tr>
+    <th align="center" width='350px'>
+      나만의 질문지 생성하기
+    </th>
+    <th align="center" width='350px'>
+      추천 템플릿으로 질문지 생성하기
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width='350px'>
+      <img src='https://github.com/TenQuest-Team/.github/assets/70912819/64caac07-daff-467c-9fe9-1e926069424a' />
+    </td>
+    <td align="center" width='350px'>
+      <img src='https://github.com/TenQuest-Team/.github/assets/70912819/c6de43d1-0aed-46bc-8339-32cc83f13086' />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width='350px'>
+      사용자는 여러 카테고리의 예시 질문 중 선택하거나, 직접 질문을 작성해서 최대 10개의 질문을 담은 나만의 질문지를 생성하여 공유할 수 있다.
+    </td>
+    <td align="center" width='350px'>
+      사용자는 아이스브레이킹과 같이 특정한 상황에 맞추어 추천 질문을 미리 담아놓은 템플릿을 통해 간편하게 질문지를 생성하여 공유할 수 있다.
+    </td>
+  </tr>
+</table>
+
+### 답변자 입장에서의 서비스 사용
+<table>
+  <tr>
+    <th align="center" width='350px'>
+      질문지에 익명으로 답변하기
+    </th>
+    <th align="center" width='350px'>
+      다른 사용자의 답변 확인하기
+    </th>
+  </tr>
+  <tr>
+    <td align="center" width='350px'>
+      <img src='https://github.com/TenQuest-Team/.github/assets/70912819/2c8ffc16-02c4-47ab-b288-6a4fa033071f' />
+    </td>
+    <td align="center" width='350px'>
+      <img src='https://github.com/TenQuest-Team/.github/assets/70912819/b1b46339-6e2c-4df3-b83f-e74e091f31cf' />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width='350px'>
+      질문지 링크에 접속한 사용자는 익명으로 질문지에 답변을 남길 수 있다.
+    </td>
+    <td align="center" width='350px'>
+      질문지에 답변을 남긴 후 사용자는 다른 사용자들이 남긴 답변들을 구경할 수 있다.
+    </td>
+  </tr>
+</table>
 
 
 <br/>
@@ -52,7 +107,8 @@
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/GOORM-000000?style=flat&logoColor=white" />
-      </td>
+        <br />
+        <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white" /></td>
       <td align="center">
         <img src="https://img.shields.io/badge/POSTMAN-FF6C37?style=flat&logo=POSTMAN&logoColor=white" />
         <br />
