@@ -7,7 +7,7 @@
 
 ## Demo
 
-### 질문자 입장에서의 서비스 사용
+### 질문자 입장에서의 서비스 이용
 <table>
   <tr>
     <th align="center" width='350px'>
@@ -35,7 +35,7 @@
   </tr>
 </table>
 
-### 답변자 입장에서의 서비스 사용
+### 답변자 입장에서의 서비스 이용
 <table>
   <tr>
     <th align="center" width='350px'>
