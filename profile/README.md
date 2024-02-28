@@ -267,7 +267,7 @@ $ npm run dev
       <td align="center"><img width="100" alt="image" src="https://github.com/TenQuest-Team/.github/assets/84436996/8e0edbb1-2c03-482f-a945-7ee455885da5"></td>
       <td align='center'><img width="100" alt="image" src="">
 </td>
-      <td align='center'><img width="100" alt="image" src="">
+      <td align='center'><img width="100" alt="image" src="https://github.com/TenQuest-Team/.github/assets/102501352/b07280ca-8e7c-4695-a6b5-eb9bd7a859fe">
 </td>
       <td align='center'><img width="100" alt="image" src="https://github.com/2023-Summer-Bootcamp-TeamD/.github/assets/70912819/9a9bc664-2e25-4992-a1df-62371430bc4c">
 </td>
